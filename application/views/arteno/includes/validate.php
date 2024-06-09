@@ -1,0 +1,17 @@
+<style>
+#lbl_password{
+  display:none;  
+}
+#lbl_email{
+ display:none;    
+}
+#lbl_mobile{
+   display:none;  
+}
+#lbl_confirmpassword{
+   display:none;  
+}
+#lbl_pincode{
+  display:none;   
+}
+</style>

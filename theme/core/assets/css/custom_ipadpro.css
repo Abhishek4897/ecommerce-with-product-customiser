@@ -1,0 +1,135 @@
+/* ipad pro */
+                        @media (min-width: 992px) and (max-width: 1300px){
+                                div#designer div#designer-left>div.row>div.col-md-12 .designer-tab-body-wrp {
+                            		position: absolute;
+                            		left:8px;
+                            		top: 40px;
+                            		height: calc(100vh - 161px)
+                            	}
+                            	div#designer-top-tools>ul.designer-top-nav li[data-tool].active>ul[data-view="sub"] {
+                            	    left:0!important;
+                            	}
+                            	#designer-left #designer-cliparts ul.designer-list-items, #designer-left #designer-templates ul.designer-list-items, #designer-left #designer-uploads ul.designer-list-items {
+                                    padding-top: 15px!important;
+                                   
+                                }
+                                
+                            	.category-list-items{
+                            	    height:120px!important;
+                            	}
+                            	.product_custom_color {
+                                    max-height: 330px!important;
+                                    /* overflow-y: hidden; */
+                                    /* overflow-x: hidden; */
+                                    position: fixed!important;
+                                    left: 5px!important;
+                                    top: 140px!important;
+                                }
+                                .prev_color {
+                                    color: #111;
+                                    position: fixed;
+                                    /* left: 78px; */
+                                    left: 27px;
+                                    font-size: 25px;
+                                    top: 18%;
+                                }
+                                .next_color {
+                                    color: #111;
+                                    position: fixed;
+                                    /* left: 78px; */
+                                    left: 3%;
+                                    font-size: 25px;
+                                    top: 66%;
+                                }
+                                .share_icon{
+                                    margin-left: -75px;
+                                }
+                                .prev_color,.next_color{
+                                    display:none!important;
+                                }
+                                
+                                div#designer-stage-nav[data-pos="right"]{
+                                        top: calc(50% + 110px)!important;
+                                }
+                                div#designer div#designer-left{
+                                    height: 155px;
+                                }
+                                #template-view-show {
+                                right: 0%;
+                                position: inherit;
+                                bottom: 0%;
+                                height: 220!important;
+                                width: 105%!important;
+                                padding: 0px 0px 15px 15px;
+                                background:white!important;
+                                
+                            }
+                            div#designer-top-tools {
+                                background: transparent;
+                                border-bottom: 1px solid #ebeced;
+                                width: calc(100% - 420px);
+                                display: inline-block;
+                                position: fixed;
+                                z-index: 10;
+                                box-sizing: border-box;
+                                color: #111;
+                                left: 30px;
+                                top: 60px;
+                                padding: 0px 0px 0px 0px;
+                                white-space: nowrap;
+                            }
+                            div#designer-top-tools>ul.designer-top-nav {
+                                    margin-left: 17%!important;
+                            }
+                            #lumise-color-picker-boxB{
+                                position: absolute!important;
+                                left: 133px!important;
+                                top: 288px!important;
+                            }
+                            div#designer-left>div.row>div.col-md-12 #designer-text.designer-tab-body-wrp #designer-text-ext {
+                                    padding-top: 17px!important;
+                            }
+                            .custom_quantity {
+                                bottom: 125px;
+                                position: fixed;
+                                left: 0px;
+                            }
+                            .custom_size {
+                                position: fixed;
+                                right: 5px;
+                                bottom: 125px;
+                                width: auto!important;
+                            }
+                            .custom_label_size,.custom_label_quantity{
+                                color:black!important;
+                                font-size:20px!important;
+                            }
+                            .designer-cart-field-quantity em[data-action] {
+                                font-size: 15px;
+                                background: black!important;
+                                border: 2px solid #dbb258;
+                                line-height: 30px!important;
+                                color: #dbb258;
+                                transition: all 250ms ease;
+                            }
+                            .designer_form_group select, #quantity_details {
+                                border-radius: 30px!important;
+                            }
+                            .designer_form_group select, #quantity_details {
+                                border-radius: 30px!important;
+                            }
+                            .category-list-items {
+                                list-style-type: none;
+                                max-width: 100%;
+                                overflow-y: scroll;
+                                position: absolute!important;
+                                display: flex;
+                                padding: 4px 0px 4px 0px;
+                                color: black;
+                                background: white;
+                            }
+                            #template-view-show {
+                                padding: 0px 0px 0px 15px!important;
+                            }
+                        }
+                         

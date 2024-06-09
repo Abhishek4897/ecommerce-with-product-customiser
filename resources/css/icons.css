@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "tshirtdesign";
+  src:url("fonts/tshirtdesign.eot");
+  src:url("fonts/tshirtdesignd41d.eot?#iefix") format("embedded-opentype"),
+    url("fonts/tshirtdesign.woff") format("woff"),
+    url("fonts/tshirtdesign.ttf") format("truetype"),
+    url("fonts/tshirtdesign.svg#tshirtdesign") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+[data-icon]:before {
+  font-family: "tshirtdesign" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="tsdx-"]:before,
+[class*=" tsdx-"]:before {
+  font-family: "tshirtdesign" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tsdx-qrcode-1:before {
+  content: "\62";
+}
+.tsdx-background-color:before {
+  content: "\6c";
+}
+.tsdx-character:before {
+  content: "\68";
+}
+.tsdx-android-add:before {
+  content: "\61";
+}
+.tsdx-android-close:before {
+  content: "\63";
+}
+.tsdx-android-done:before {
+  content: "\64";
+}
+.tsdx-android-remove:before {
+  content: "\65";
+}
+.tsdx-android-options:before {
+  content: "\66";
+}
+.tsdx-android-apps:before {
+  content: "\67";
+}
+.tsdx-cube:before {
+  content: "\69";
+}
+.tsdx-arrow-move:before {
+  content: "\6a";
+}
+.tsdx-android-open:before {
+  content: "\6b";
+}
+.tsdx-android-search:before {
+  content: "\6d";
+}
+.tsdx-android-color-palette:before {
+  content: "\6e";
+}
+.tsdx-android-bulb:before {
+  content: "\6f";
+}
+.tsdx-reply:before {
+  content: "\71";
+}
+.tsdx-forward:before {
+  content: "\72";
+}
+.tsdx-waterdrop:before {
+  content: "\70";
+}
+.tsdx-floppy:before {
+  content: "\73";
+}
+.tsdx-android-download:before {
+  content: "\74";
+}
+.tsdx-paintbucket:before {
+  content: "\75";
+}
+.tsdx-letter:before {
+  content: "\76";
+}
+.tsdx-bold:before {
+  content: "\77";
+}
+.tsdx-italic:before {
+  content: "\78";
+}
+.tsdx-underline:before {
+  content: "\79";
+}
+.tsdx-align-center:before {
+  content: "\7a";
+}
+.tsdx-align-justify:before {
+  content: "\41";
+}
+.tsdx-align-left:before {
+  content: "\42";
+}
+.tsdx-align-right:before {
+  content: "\43";
+}
+.tsdx-text:before {
+  content: "\44";
+}
+.tsdx-vector:before {
+  content: "\45";
+}
+.tsdx-send-to-back:before {
+  content: "\47";
+}
+.tsdx-printer:before {
+  content: "\46";
+}
+.tsdx-export:before {
+  content: "\4a";
+}
+.tsdx-android-checkbox-outline-blank:before {
+  content: "\48";
+}
+.tsdx-arrows-ccw:before {
+  content: "\49";
+}
+.tsdx-android-arrow-back:before {
+  content: "\4b";
+}
+.tsdx-android-arrow-down:before {
+  content: "\4c";
+}
+.tsdx-android-arrow-up:before {
+  content: "\4d";
+}
+.tsdx-android-arrow-forward:before {
+  content: "\4e";
+}
+.tsdx-android-upload:before {
+  content: "\4f";
+}
+.tsdx-ios-arrow-forward:before {
+  content: "\50";
+}
+.tsdx-ios-arrow-back:before {
+  content: "\51";
+}
+.tsdx-ios-color-wand:before {
+  content: "\52";
+}
+.tsdx-help-buoy:before {
+  content: "\54";
+}
+.tsdx-android-send:before {
+  content: "\53";
+}
+.tsdx-grid-lines-streamline:before {
+  content: "\55";
+}
+.tsdx-social-instagram:before {
+  content: "\56";
+}
+.tsdx-social-facebook:before {
+  content: "\57";
+}
+.tsdx-social-flickr:before {
+  content: "\58";
+}
